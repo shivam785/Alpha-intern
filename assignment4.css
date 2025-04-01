@@ -1,0 +1,101 @@
+/* Section 1: Syntax */
+
+/* 1. Change text color of all paragraphs to red */
+p {
+     color: red;
+ }
+ 
+ /* 2. Set font size of all h1 elements to 24px */
+ h1 {
+     font-size: 24px;
+ }
+ 
+ /* 3. Apply a solid black border of 2px to all div elements */
+ div {
+     border: 2px solid black;
+ }
+ 
+ /* 4. Make text in p elements italic */
+ p {
+     font-style: italic;
+ }
+ 
+ /* 5. CSS comment example */
+ /* This is a comment in CSS */
+ 
+ /* Section 2: Including CSS */
+ 
+ /* 6. Inline style example (inside an HTML tag) */
+ /* <p style="color: green;">This is a green paragraph.</p> */
+ 
+ /* 7. Link an external CSS file to an HTML document */
+ /* <link rel="stylesheet" href="styles.css"> */
+ 
+ /* 8. Internal CSS rule to set body background color */
+ body {
+     background-color: lightgray;
+ }
+ 
+ /* 9. Difference between inline and external CSS */
+ /*
+    Inline CSS is applied directly to an HTML element using the "style" attribute.
+    External CSS is written in a separate .css file and linked to the HTML document.
+ */
+ 
+ /* 10. Use @import to include another CSS file */
+ @import url("another-styles.css");
+ 
+ /* Section 3: Color */
+ 
+ /* 11. Set text color of all h2 elements to blue */
+ h2 {
+     color: blue;
+ }
+ 
+ /* 12. Change color of links to red when hovered */
+ a:hover {
+     color: red;
+ }
+ 
+ /* 13. Use hex code to change paragraph text color to black */
+ p {
+     color: #000000;
+ }
+ 
+ /* 14. Set heading color to green using rgb() */
+ h1 {
+     color: rgb(0, 128, 0);
+ }
+ 
+ /* 15. Make paragraph text slightly transparent using rgba() */
+ p {
+     color: rgba(0, 0, 0, 0.5);
+ }
+ 
+ /* Section 4: Background Color */
+ 
+ /* 16. Set background color of div to yellow */
+ div {
+     background-color: yellow;
+ }
+ 
+ /* 17. Change background color of body to lightblue */
+ body {
+     background-color: lightblue;
+ }
+ 
+ /* 18. Apply background color to button when hovered */
+ button:hover {
+     background-color: lightgray;
+ }
+ 
+ /* 19. Set a different background color for even rows in a table */
+ tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+ 
+ /* 20. Set a background color for a specific class named .box */
+ .box {
+     background-color: lightcoral;
+ }
+ 
